@@ -69,7 +69,7 @@ export default class App extends React.Component {
           <button className="btn btn-primary" name="submit" onClick={this.handleSubmit} type="submit">Calculate</button>
         </form>
         <div>
-          <h1 name="output">${this.state.output} is your payment</h1>
+          <h2 name="output">${this.state.output} is your payment</h2>
         </div>
       </div>
     );
